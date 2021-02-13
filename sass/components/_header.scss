@@ -1,26 +1,17 @@
 .header {
     &__conteiner {
-        margin-left: auto;
-        margin-right: auto;
-        width: 1200px;
-        padding-left: 15px;
-        padding-right: 15px;
+        @extend %conteiner;
         display: flex;
         align-items: center;
     }
 }
 
 .sait-nav {
-    display: flex;
-    align-items: center;
+    @extend %position;
 }
 
 .logo {
-    color: $accent-text-color;
-    font-family: $text-logo;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    @extend %logo;
 
     &__head {
         padding: 24px 0px;
@@ -35,8 +26,7 @@
 .site-nav {
 
     &__list {
-        display: flex;
-        align-items: center;
+        @extend %position;
     }
 
     &__items {
@@ -89,9 +79,7 @@
 }
 
 .contact {
-    display: flex;
-    align-items: center;
-
+    @extend %position;
 
     &__list {
         display: flex;

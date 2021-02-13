@@ -1,0 +1,30 @@
+%conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+%logo {
+    color: $accent-text-color;
+    font-family: Raleway,
+        sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+%position {
+    display: flex;
+    align-items: center;
+}
+
+%soc__net {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
