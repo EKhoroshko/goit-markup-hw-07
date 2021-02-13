@@ -32,23 +32,13 @@
     }
 
     &__button {
+        @extend %button;
         padding: 10px 32px;
         min-width: 200px;
         margin: 0 auto;
-        border-radius: 4px;
-        border-color: $accent-text-color;
-
-        color: $background-main-color;
-        background-color: $accent-text-color;
-        font-family: $main-font;
-        font-weight: 700;
-        font-size: 16px;
         line-height: 1.86;
         display: flex;
-        align-items: center;
-        text-align: center;
         letter-spacing: 0.06em;
-        cursor: pointer;
     }
 
     &__button:hover,

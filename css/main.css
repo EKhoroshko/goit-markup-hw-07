@@ -366,7 +366,7 @@ template {
           align-items: center;
 }
 
-.social__link, .team__block {
+.social__link, .clients__link, .team__block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,7 +378,21 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 50%;
+}
+
+.subs__botton, .hero__button {
+  border-radius: 4px;
+  border-color: #2196f3;
+  color: #ffffff;
+  background-color: #2196f3;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  cursor: pointer;
 }
 
 body {
@@ -532,23 +546,11 @@ img {
   padding: 10px 32px;
   min-width: 200px;
   margin: 0 auto;
-  border-radius: 4px;
-  border-color: #2196f3;
-  color: #ffffff;
-  background-color: #2196f3;
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-size: 16px;
   line-height: 1.86;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  cursor: pointer;
 }
 .hero__button:hover, .hero__button:focus {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -1094,17 +1096,6 @@ img {
   margin-right: 0px;
 }
 .clients__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
@@ -1244,21 +1235,12 @@ img {
 }
 .subs__botton {
   padding: 10px 29px;
-  border-radius: 4px;
-  background-color: #2196f3;
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: #ffffff;
-  cursor: pointer;
   border: none;
 }
 .subs__botton:hover, .subs__botton:focus {
